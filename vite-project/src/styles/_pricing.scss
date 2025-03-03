@@ -1,0 +1,86 @@
+@use './_colors.scss';
+
+#pricing button {
+    margin-bottom: 60px;
+}
+
+.pricing-text-container {
+    margin-bottom: 50px;
+}
+
+.pricing-text-container p { 
+    max-width: 45ch;
+}
+
+.pricing-cards-grid {
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, min-content);
+    grid-template-rows: min-content;
+}
+
+.pricing-cards-grid .bigger {
+    font-weight: 300;
+    max-width: 50ch;
+}
+
+.pricing-cards-grid .p-h1 {
+    color: var(--gray);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+
+.pricing-card-small,
+.pricing-card-big {
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 5px 10px 0 var(--primary-light);
+    border-radius: 12px;
+
+    padding: 20px 30px;
+
+    width: 425px;
+    min-height: 660px;
+}
+
+.pricing-card-big {
+    min-height: 800px;
+    box-shadow: 0 5px 10px 0 var(--primary2-light);
+}
+
+.pricing-card-small h3 {
+    color: var(--primary-light);
+    font-weight: 800;
+}
+
+.pricing-card-big h3 {
+    color: var(--primary2-light);
+    font-weight: 800;
+}
+
+.pricing-list, .premium-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-list li,
+.premium-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.premium-list span {
+    color: var(--primary-light);
+    font-weight: 500;
+}
+
+.pricing-list span {
+    color: var(--primary2-light);
+    font-weight: 500;
+}

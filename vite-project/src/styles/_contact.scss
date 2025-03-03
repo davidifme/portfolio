@@ -1,0 +1,84 @@
+// Heading text
+.contact-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+
+    align-items: center;
+}
+
+.contact-text-container p {
+    font-weight: 400;
+}
+
+// Form
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-name-container,
+.form-email-phone-container,
+.message-container {
+    display: flex;
+    gap: 30px;
+}
+
+.input-container-small,
+.input-container-big,
+.message-content {
+    display: flex;
+    gap: 10px;
+    padding: 20px 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.input-container-small {
+    width: 350px;
+    height: 80px;
+}
+
+.input-container-big {
+    width: 500px;
+    height: 80px;
+}
+
+.message-content {
+    width: 880px;
+    min-height: 250px;
+}
+
+#message {
+    min-height: 250px;
+    max-height: 450px;
+    resize: vertical;
+}
+
+// Inputs border reset
+#contact-form input,
+#contact-form input:focus,
+#contact-form input:hover,
+#contact-form input:active,
+#contact-form textarea,
+#contact-form textarea:focus,
+#contact-form textarea:hover,
+#contact-form textarea:active {
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100%;
+    align-self: flex-start;
+}
+
+// Inputs
+#contact-form input:invalid {
+    box-shadow: 0px 4px 16px rgba(255, 0, 0, 0.249);
+}
+
+#contact-form input {
+    padding-left: 5px;
+}

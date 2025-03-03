@@ -1,0 +1,45 @@
+@use './_colors.scss';
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    padding: 15px 60px;
+    margin-bottom: 50px;
+
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1512px;
+}
+
+.header-logo-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    gap: 20px;
+}
+
+.header-social-links-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}

@@ -1,4 +1,17 @@
 @charset "UTF-8";
 
 // Forward all SCSS partials
-@forward './main.scss';
+@forward './_reset.scss';
+@forward './_fonts.scss';
+@forward './_colors.scss';
+@forward './_icons.scss';
+@forward './_header.scss';
+@forward './_hero.scss';
+@forward './_main.scss';
+@forward './_buttons.scss';
+@forward './_about.scss';
+@forward './_responsiveness.scss';
+@forward './_pricing.scss';
+@forward './_portfolio.scss';
+@forward './_contact.scss';
+@forward './_footer.scss';

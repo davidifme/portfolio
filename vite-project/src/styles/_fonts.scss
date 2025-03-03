@@ -1,0 +1,37 @@
+:root{
+/* font size */
+--ff: "Inter", sans-serif;
+--h1: bold 4rem/1em var(--ff);
+--h2: bold 3rem/1.2em var(--ff);
+--h3: bold 2.25rem/1.2em var(--ff);
+--h4: bold 1.5rem/1.6em var(--ff);
+--h5: bold 1.3rem/1.6em var(--ff);
+--h6: bold 1.1rem/1.8em var(-ff);
+--big: 1.25rem/1.6em var(--ff);
+--bigger: 1.5rem/1.6em var(--ff);
+--p: 1rem/1.6em var(--ff);
+--small: .75rem/2em var(--ff);
+--button: 600 1.25rem/1.6em var(--ff);
+}
+
+// Font Family
+body{font-family: var(--ff);}
+
+/* landing page */
+h1{font: var(--h1);}
+h2{font: var(--h2);}
+h3{font: var(--h3);}
+h4{font: var(--h4);}
+h5{font: var(--h5);}
+h6{font: var(--h6);}
+.big{font: var(--big);}
+.bigger{font: var(--bigger);}
+p{font: var(--p);}
+.small{font: var(--small);}
+button{font: var(--button);}
+
+.p-h1{font: var(--h1);}
+.p-h3{font: var(--h3);}
+.p-h4{font: var(--h4);}
+.p-h5{font: var(--h5);}
+.p-h6{font: var(--h6);}

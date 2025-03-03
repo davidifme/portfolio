@@ -1,0 +1,44 @@
+@use './_colors.scss';
+
+.pfp {
+    height: 50px;
+    width: 50px;
+}
+
+.pfp-big {
+    height: 300px;
+    width: 300px;
+}
+
+.header-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.copy-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.check-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.premium-list .check-icon {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(1500%) hue-rotate(120deg) brightness(90%) contrast(90%);
+}
+
+.pricing-list .check-icon {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(748%) hue-rotate(178deg) brightness(91%) contrast(91%);
+}
+
+.form-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.footer-pfp {
+    height: 100px;
+    width: 100px;
+}
